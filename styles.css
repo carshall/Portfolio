@@ -1,1 +1,48 @@
-css will go here!
+body {
+  background-color: lightblue;
+}
+
+.projects {
+  font-family: cursive;
+}
+
+#experience {
+  padding: 50px;
+  border: 5px solid;
+}
+
+.navigation-item {
+  float: left;
+  border-right: 1px solid #bbb;
+}
+
+.navigation-bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navigation-item .navigation-link{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navigation-item .navigation-link:hover {
+  background-color: #111;
+}
+
+.important-info {
+  float: right;
+}
+
+.everything {
+  margin-top: 50px;
+}
